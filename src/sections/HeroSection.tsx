@@ -203,7 +203,7 @@ export function HeroSection() {
       >
         <div className="relative w-full h-full rounded-full overflow-hidden glass-card cyan-glow">
           <img 
-            src="/hero-portrait.jpg" 
+            src={`${import.meta.env.BASE_URL}hero-portrait.jpg`}
             alt="Professional Portrait"
             className="w-full h-full object-cover"
           />
